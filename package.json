@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3029",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 3029",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
